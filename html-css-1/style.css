@@ -36,20 +36,73 @@ body{
 }
 
 #div1 {
-    height: 33vh;
+    height: 30vh;
     width: 100vw;
     background-color: black;
     color: yellow;
     text-align: center;
     vertical-align: middle;
-    line-height: 200px;   
+    line-height: 275px;   
     font-size: 50px;
 }
 
 #div2 {
+    border-radius: 25px;
+    background: green;
+    padding: 20px; 
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 25px
 
 }
 
+#div3 {
+border-radius: 25px;
+  background: green;
+  padding: 20px; 
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+ margin-left: 38%;
+ margin-right: 15%;
+ margin-top: 15px;
+}
+
+#div4 {
+    border-radius: 25px;
+    background: green;
+    padding: 20px; 
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px
+}
+
+#Rectangle1 {
+    background: yellow;
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    margin-left:25px;
+    margin-top: 15px
+}
+
+#Rectangle2 {
+  background: yellow;
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+  float: right;
+  margin-right: 25px;
+  margin-top: 15px
+ 
+}
 footer {
     height: 10vh ;
     width: 100vw;
