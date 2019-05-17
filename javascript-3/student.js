@@ -39,17 +39,17 @@ function removeItem(index){
 
 //displayData(1,1)
 
-//////////////////STEP 6////////////////////
+//////////////////STEP 6****////////////////////
 //Create a function called 'checkGroceryCount'. Inside of the function check the total number of groceries you need to get using .length. Using an else/if statement, check if the number is greater than or equal to 5, return the string 'That looks like a big trip' from the function. If the number of groceries is equal to one, return the string '1 item'. For numbers between 1 and 5, return the string 'NUMBER items' with number replacing the number of items
 
 function checkGroceryCount(){
     
     if (groceries.length >= 5){
         return 'That looks like a big trip'
-    } else if (groceries.length === 2 || 3 || 4) {
-        return Number(groceries.length) + ' items'
-    } else {
+    } else if (groceries.length === 1) {
         return '1 item'
+    } else {
+        return groceries.length + ' items'
     }
 }
 

@@ -90,20 +90,19 @@ var me = {
 		}
 } 
 
-//////////////////PROBLEM 12////////////////////
+///////////////////***PROBLEM 12***////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, arr. Create a new array inside of bigOrSmall called 'answers'. Loop over the passed in arr param. If the number is GREATER than 100, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function
 
 function bigOrSmall(arr){
 	const answers =[];
-	for (var i = 0; i <= 100; i++){
-		arr.push('small')
-	} for (var j = 0; j > 100; i++){
-		arr.push('big')
+	for (var i = 0; i <arr.length; i++){
+		if(arr[i]>100){
+			answers.push('big')
+		} else{
+			answers.push('small')
+		}	
 	}
-	
-	return answers
-}
 
 //////////////////PROBLEM 13////////////////////
 
@@ -147,14 +146,14 @@ let total = myNumbers.reduce(function(acc, e){
 	return acc + e
 }, 0)
 
-//////////////////PROBLEM 17////////////////////
+//////////////////***PROBLEM 17***////////////////////
 
 // Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
 
 let myNumbersIndex = [];
 
-myNumbers.forEach(function(i){
-	myNumbersIndex.push(myNumbers[i])
+myNumbers.forEach(function(num,i){
+	myNumbersIndex.push(i)
 })
 
 
